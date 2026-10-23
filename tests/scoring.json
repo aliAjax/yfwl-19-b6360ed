@@ -1,0 +1,353 @@
+{
+  "schema_version": 1,
+  "weight_policy": {
+    "version": 1,
+    "basis": "business_priority",
+    "core_min_share": 0.5
+  },
+  "gate_tests": [
+    "test_outputs.py::test_assignments_match_global_optimum"
+  ],
+  "tests": {
+    "test_outputs.py::test_existing_inspect_mode_returns_zero": {
+      "weight": 0.006,
+      "priority": "supporting",
+      "rationale": "该用例验证场景契约、边界、序列化或跨运行流水，缺失会使排程结果无法复核。"
+    },
+    "test_outputs.py::test_success_is_silent_and_creates_report": {
+      "weight": 0.006,
+      "priority": "supporting",
+      "rationale": "该用例验证场景契约、边界、序列化或跨运行流水，缺失会使排程结果无法复核。"
+    },
+    "test_outputs.py::test_missing_argument_returns_three": {
+      "weight": 0.006,
+      "priority": "supporting",
+      "rationale": "该用例验证场景契约、边界、序列化或跨运行流水，缺失会使排程结果无法复核。"
+    },
+    "test_outputs.py::test_malformed_json_returns_three": {
+      "weight": 0.006,
+      "priority": "supporting",
+      "rationale": "该用例验证场景契约、边界、序列化或跨运行流水，缺失会使排程结果无法复核。"
+    },
+    "test_outputs.py::test_refusal_prefix_is_exact": {
+      "weight": 0.006,
+      "priority": "supporting",
+      "rationale": "该用例验证场景契约、边界、序列化或跨运行流水，缺失会使排程结果无法复核。"
+    },
+    "test_outputs.py::test_duplicate_top_level_key_returns_three": {
+      "weight": 0.006,
+      "priority": "supporting",
+      "rationale": "该用例验证场景契约、边界、序列化或跨运行流水，缺失会使排程结果无法复核。"
+    },
+    "test_outputs.py::test_top_level_array_returns_three": {
+      "weight": 0.006,
+      "priority": "supporting",
+      "rationale": "该用例验证场景契约、边界、序列化或跨运行流水，缺失会使排程结果无法复核。"
+    },
+    "test_outputs.py::test_missing_top_level_key_returns_three": {
+      "weight": 0.006,
+      "priority": "supporting",
+      "rationale": "该用例验证场景契约、边界、序列化或跨运行流水，缺失会使排程结果无法复核。"
+    },
+    "test_outputs.py::test_extra_top_level_key_returns_three": {
+      "weight": 0.006,
+      "priority": "supporting",
+      "rationale": "该用例验证场景契约、边界、序列化或跨运行流水，缺失会使排程结果无法复核。"
+    },
+    "test_outputs.py::test_schema_version_bool_returns_three": {
+      "weight": 0.006,
+      "priority": "supporting",
+      "rationale": "该用例验证场景契约、边界、序列化或跨运行流水，缺失会使排程结果无法复核。"
+    },
+    "test_outputs.py::test_unit_value_returns_three": {
+      "weight": 0.006,
+      "priority": "supporting",
+      "rationale": "该用例验证场景契约、边界、序列化或跨运行流水，缺失会使排程结果无法复核。"
+    },
+    "test_outputs.py::test_case_id_without_shift_returns_three": {
+      "weight": 0.006,
+      "priority": "supporting",
+      "rationale": "该用例验证场景契约、边界、序列化或跨运行流水，缺失会使排程结果无法复核。"
+    },
+    "test_outputs.py::test_equipment_count_returns_three": {
+      "weight": 0.006,
+      "priority": "supporting",
+      "rationale": "该用例验证场景契约、边界、序列化或跨运行流水，缺失会使排程结果无法复核。"
+    },
+    "test_outputs.py::test_equipment_extra_key_returns_three": {
+      "weight": 0.006,
+      "priority": "supporting",
+      "rationale": "该用例验证场景契约、边界、序列化或跨运行流水，缺失会使排程结果无法复核。"
+    },
+    "test_outputs.py::test_duplicate_equipment_returns_three": {
+      "weight": 0.006,
+      "priority": "supporting",
+      "rationale": "该用例验证场景契约、边界、序列化或跨运行流水，缺失会使排程结果无法复核。"
+    },
+    "test_outputs.py::test_too_few_jobs_returns_three": {
+      "weight": 0.006,
+      "priority": "supporting",
+      "rationale": "该用例验证场景契约、边界、序列化或跨运行流水，缺失会使排程结果无法复核。"
+    },
+    "test_outputs.py::test_too_many_jobs_returns_three": {
+      "weight": 0.006,
+      "priority": "supporting",
+      "rationale": "该用例验证场景契约、边界、序列化或跨运行流水，缺失会使排程结果无法复核。"
+    },
+    "test_outputs.py::test_job_extra_key_returns_three": {
+      "weight": 0.006,
+      "priority": "supporting",
+      "rationale": "该用例验证场景契约、边界、序列化或跨运行流水，缺失会使排程结果无法复核。"
+    },
+    "test_outputs.py::test_duplicate_job_returns_three": {
+      "weight": 0.006,
+      "priority": "supporting",
+      "rationale": "该用例验证场景契约、边界、序列化或跨运行流水，缺失会使排程结果无法复核。"
+    },
+    "test_outputs.py::test_weight_bool_returns_three": {
+      "weight": 0.006,
+      "priority": "supporting",
+      "rationale": "该用例验证场景契约、边界、序列化或跨运行流水，缺失会使排程结果无法复核。"
+    },
+    "test_outputs.py::test_weight_zero_returns_three": {
+      "weight": 0.006,
+      "priority": "supporting",
+      "rationale": "该用例验证场景契约、边界、序列化或跨运行流水，缺失会使排程结果无法复核。"
+    },
+    "test_outputs.py::test_too_few_observations_returns_three": {
+      "weight": 0.006,
+      "priority": "supporting",
+      "rationale": "该用例验证场景契约、边界、序列化或跨运行流水，缺失会使排程结果无法复核。"
+    },
+    "test_outputs.py::test_too_many_observations_returns_three": {
+      "weight": 0.006,
+      "priority": "supporting",
+      "rationale": "该用例验证场景契约、边界、序列化或跨运行流水，缺失会使排程结果无法复核。"
+    },
+    "test_outputs.py::test_duplicate_observation_returns_three": {
+      "weight": 0.006,
+      "priority": "supporting",
+      "rationale": "该用例验证场景契约、边界、序列化或跨运行流水，缺失会使排程结果无法复核。"
+    },
+    "test_outputs.py::test_batch_missing_job_returns_three": {
+      "weight": 0.006,
+      "priority": "supporting",
+      "rationale": "该用例验证场景契约、边界、序列化或跨运行流水，缺失会使排程结果无法复核。"
+    },
+    "test_outputs.py::test_batch_extra_job_returns_three": {
+      "weight": 0.006,
+      "priority": "supporting",
+      "rationale": "该用例验证场景契约、边界、序列化或跨运行流水，缺失会使排程结果无法复核。"
+    },
+    "test_outputs.py::test_batch_bool_returns_three": {
+      "weight": 0.006,
+      "priority": "supporting",
+      "rationale": "该用例验证场景契约、边界、序列化或跨运行流水，缺失会使排程结果无法复核。"
+    },
+    "test_outputs.py::test_batch_above_three_returns_three": {
+      "weight": 0.006,
+      "priority": "supporting",
+      "rationale": "该用例验证场景契约、边界、序列化或跨运行流水，缺失会使排程结果无法复核。"
+    },
+    "test_outputs.py::test_machine_minutes_missing_equipment_returns_three": {
+      "weight": 0.006,
+      "priority": "supporting",
+      "rationale": "该用例验证场景契约、边界、序列化或跨运行流水，缺失会使排程结果无法复核。"
+    },
+    "test_outputs.py::test_machine_minutes_negative_returns_three": {
+      "weight": 0.006,
+      "priority": "supporting",
+      "rationale": "该用例验证场景契约、边界、序列化或跨运行流水，缺失会使排程结果无法复核。"
+    },
+    "test_outputs.py::test_sequences_count_returns_three": {
+      "weight": 0.006,
+      "priority": "supporting",
+      "rationale": "该用例验证场景契约、边界、序列化或跨运行流水，缺失会使排程结果无法复核。"
+    },
+    "test_outputs.py::test_sequence_extra_key_returns_three": {
+      "weight": 0.006,
+      "priority": "supporting",
+      "rationale": "该用例验证场景契约、边界、序列化或跨运行流水，缺失会使排程结果无法复核。"
+    },
+    "test_outputs.py::test_duplicate_sequence_id_returns_three": {
+      "weight": 0.006,
+      "priority": "supporting",
+      "rationale": "该用例验证场景契约、边界、序列化或跨运行流水，缺失会使排程结果无法复核。"
+    },
+    "test_outputs.py::test_sequence_repeats_job_returns_three": {
+      "weight": 0.006,
+      "priority": "supporting",
+      "rationale": "该用例验证场景契约、边界、序列化或跨运行流水，缺失会使排程结果无法复核。"
+    },
+    "test_outputs.py::test_sequence_unknown_job_returns_three": {
+      "weight": 0.006,
+      "priority": "supporting",
+      "rationale": "该用例验证场景契约、边界、序列化或跨运行流水，缺失会使排程结果无法复核。"
+    },
+    "test_outputs.py::test_sequence_negative_makespan_returns_three": {
+      "weight": 0.006,
+      "priority": "supporting",
+      "rationale": "该用例验证场景契约、边界、序列化或跨运行流水，缺失会使排程结果无法复核。"
+    },
+    "test_outputs.py::test_duration_matrix_recovered": {
+      "weight": 0.09,
+      "priority": "core",
+      "rationale": "该项直接证明匿名履历恢复、换型闭合或上限规模排程能够支撑夜班交付。"
+    },
+    "test_outputs.py::test_qualification_matrix_recovered": {
+      "weight": 0.09,
+      "priority": "core",
+      "rationale": "该项直接证明匿名履历恢复、换型闭合或上限规模排程能够支撑夜班交付。"
+    },
+    "test_outputs.py::test_directed_changeover_matrix_recovered": {
+      "weight": 0.09,
+      "priority": "core",
+      "rationale": "该项直接证明匿名履历恢复、换型闭合或上限规模排程能够支撑夜班交付。"
+    },
+    "test_outputs.py::test_changeover_diagonal_is_zero": {
+      "weight": 0.006,
+      "priority": "supporting",
+      "rationale": "该用例验证场景契约、边界、序列化或跨运行流水，缺失会使排程结果无法复核。"
+    },
+    "test_outputs.py::test_history_mapping_recovered": {
+      "weight": 0.09,
+      "priority": "core",
+      "rationale": "该项直接证明匿名履历恢复、换型闭合或上限规模排程能够支撑夜班交付。"
+    },
+    "test_outputs.py::test_history_makespan_uses_directed_changeover": {
+      "weight": 0.006,
+      "priority": "supporting",
+      "rationale": "该用例验证场景契约、边界、序列化或跨运行流水，缺失会使排程结果无法复核。"
+    },
+    "test_outputs.py::test_ambiguous_history_order_returns_three": {
+      "weight": 0.006,
+      "priority": "supporting",
+      "rationale": "该用例验证场景契约、边界、序列化或跨运行流水，缺失会使排程结果无法复核。"
+    },
+    "test_outputs.py::test_summary_missing_equipment_returns_three": {
+      "weight": 0.006,
+      "priority": "supporting",
+      "rationale": "该用例验证场景契约、边界、序列化或跨运行流水，缺失会使排程结果无法复核。"
+    },
+    "test_outputs.py::test_duration_rank_deficiency_returns_three": {
+      "weight": 0.006,
+      "priority": "supporting",
+      "rationale": "该用例验证场景契约、边界、序列化或跨运行流水，缺失会使排程结果无法复核。"
+    },
+    "test_outputs.py::test_recovered_duration_values_remain_nonnegative": {
+      "weight": 0.006,
+      "priority": "supporting",
+      "rationale": "该用例验证场景契约、边界、序列化或跨运行流水，缺失会使排程结果无法复核。"
+    },
+    "test_outputs.py::test_equipment_without_work_returns_three": {
+      "weight": 0.006,
+      "priority": "supporting",
+      "rationale": "该用例验证场景契约、边界、序列化或跨运行流水，缺失会使排程结果无法复核。"
+    },
+    "test_outputs.py::test_changeover_rank_deficiency_returns_three": {
+      "weight": 0.006,
+      "priority": "supporting",
+      "rationale": "该用例验证场景契约、边界、序列化或跨运行流水，缺失会使排程结果无法复核。"
+    },
+    "test_outputs.py::test_schedule_sequence_matches_optimum": {
+      "weight": 0.09,
+      "priority": "core",
+      "rationale": "该项直接证明匿名履历恢复、换型闭合或上限规模排程能够支撑夜班交付。"
+    },
+    "test_outputs.py::test_total_weighted_completion_matches_optimum": {
+      "weight": 0.09,
+      "priority": "core",
+      "rationale": "该项直接证明匿名履历恢复、换型闭合或上限规模排程能够支撑夜班交付。"
+    },
+    "test_outputs.py::test_makespan_matches_schedule": {
+      "weight": 0.006,
+      "priority": "supporting",
+      "rationale": "该用例验证场景契约、边界、序列化或跨运行流水，缺失会使排程结果无法复核。"
+    },
+    "test_outputs.py::test_qualified_assignments_only": {
+      "weight": 0.006,
+      "priority": "supporting",
+      "rationale": "该用例验证场景契约、边界、序列化或跨运行流水，缺失会使排程结果无法复核。"
+    },
+    "test_outputs.py::test_report_exact_keys": {
+      "weight": 0.006,
+      "priority": "supporting",
+      "rationale": "该用例验证场景契约、边界、序列化或跨运行流水，缺失会使排程结果无法复核。"
+    },
+    "test_outputs.py::test_nested_report_key_sets": {
+      "weight": 0.006,
+      "priority": "supporting",
+      "rationale": "该用例验证场景契约、边界、序列化或跨运行流水，缺失会使排程结果无法复核。"
+    },
+    "test_outputs.py::test_journal_entry_exact_keys": {
+      "weight": 0.006,
+      "priority": "supporting",
+      "rationale": "该用例验证场景契约、边界、序列化或跨运行流水，缺失会使排程结果无法复核。"
+    },
+    "test_outputs.py::test_journal_status_is_completed": {
+      "weight": 0.006,
+      "priority": "supporting",
+      "rationale": "该用例验证场景契约、边界、序列化或跨运行流水，缺失会使排程结果无法复核。"
+    },
+    "test_outputs.py::test_solver_nodes_is_positive_integer": {
+      "weight": 0.006,
+      "priority": "supporting",
+      "rationale": "该用例验证场景契约、边界、序列化或跨运行流水，缺失会使排程结果无法复核。"
+    },
+    "test_outputs.py::test_compact_json_and_trailing_newline": {
+      "weight": 0.006,
+      "priority": "supporting",
+      "rationale": "该用例验证场景契约、边界、序列化或跨运行流水，缺失会使排程结果无法复核。"
+    },
+    "test_outputs.py::test_checksum_matches_result": {
+      "weight": 0.006,
+      "priority": "supporting",
+      "rationale": "该用例验证场景契约、边界、序列化或跨运行流水，缺失会使排程结果无法复核。"
+    },
+    "test_outputs.py::test_report_digest_excludes_only_journal_entry": {
+      "weight": 0.006,
+      "priority": "supporting",
+      "rationale": "该用例验证场景契约、边界、序列化或跨运行流水，缺失会使排程结果无法复核。"
+    },
+    "test_outputs.py::test_journal_repeat_is_idempotent": {
+      "weight": 0.006,
+      "priority": "supporting",
+      "rationale": "该用例验证场景契约、边界、序列化或跨运行流水，缺失会使排程结果无法复核。"
+    },
+    "test_outputs.py::test_changed_case_appends_journal": {
+      "weight": 0.006,
+      "priority": "supporting",
+      "rationale": "该用例验证场景契约、边界、序列化或跨运行流水，缺失会使排程结果无法复核。"
+    },
+    "test_outputs.py::test_failure_preserves_existing_outputs": {
+      "weight": 0.006,
+      "priority": "supporting",
+      "rationale": "该用例验证场景契约、边界、序列化或跨运行流水，缺失会使排程结果无法复核。"
+    },
+    "test_outputs.py::test_report_replace_failure_rolls_back_journal": {
+      "weight": 0.006,
+      "priority": "supporting",
+      "rationale": "该用例验证场景契约、边界、序列化或跨运行流水，缺失会使排程结果无法复核。"
+    },
+    "test_outputs.py::test_sequence_presentation_order_is_irrelevant": {
+      "weight": 0.006,
+      "priority": "supporting",
+      "rationale": "该用例验证场景契约、边界、序列化或跨运行流水，缺失会使排程结果无法复核。"
+    },
+    "test_outputs.py::test_equipment_presentation_order_is_irrelevant": {
+      "weight": 0.006,
+      "priority": "supporting",
+      "rationale": "该用例验证场景契约、边界、序列化或跨运行流水，缺失会使排程结果无法复核。"
+    },
+    "test_outputs.py::test_normal_case_finishes_within_three_seconds": {
+      "weight": 0.006,
+      "priority": "supporting",
+      "rationale": "该用例验证场景契约、边界、序列化或跨运行流水，缺失会使排程结果无法复核。"
+    },
+    "test_outputs.py::test_maximum_public_scale_finishes_within_three_seconds": {
+      "weight": 0.094,
+      "priority": "core",
+      "rationale": "该项直接证明匿名履历恢复、换型闭合或上限规模排程能够支撑夜班交付。"
+    }
+  }
+}
